@@ -14,4 +14,6 @@
 
 `node index.js`
 
-运行测试，如无问题可运行`forever start index.js`保持后台运行
+运行测试，每次运行时会尝试修改一次解析，可能会返回*重复设置*的错误，可无视。
+
+如无问题可运行`forever start index.js`保持后台运行
